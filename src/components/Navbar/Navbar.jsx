@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm">
+            <div className="navbar bg-base-100 shadow-sm px-20">
                 <div className="flex-1">
                     <img src='/src/assets/logo.png'></img>
                 </div>

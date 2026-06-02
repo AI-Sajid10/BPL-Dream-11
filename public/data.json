@@ -1,0 +1,142 @@
+[
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerType": "Bowler",
+    "rating": 88,
+    "battingStyle": "Left-Hand Bat",
+    "bowlingStyle": "Left-Arm Fast Medium",
+    "price": 140000,
+    "image": "https://images.unsplash.com/photo-1517466787929-bc90951d0974"
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 96,
+    "battingStyle": "Right-Hand Bat",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 200000,
+    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136"
+  },
+  {
+    "playerName": "Shaheen Shah Afridi",
+    "playerCountry": "Pakistan",
+    "playerType": "Bowler",
+    "rating": 92,
+    "battingStyle": "Left-Hand Bat",
+    "bowlingStyle": "Left-Arm Fast",
+    "price": 190000,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b"
+  },
+  {
+    "playerName": "Wanindu Hasaranga",
+    "playerCountry": "Sri Lanka",
+    "playerType": "All-Rounder",
+    "rating": 91,
+    "battingStyle": "Right-Hand Bat",
+    "bowlingStyle": "Right-Arm Leg Break",
+    "price": 175000,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55"
+  },
+  {
+    "playerName": "Pathum Nissanka",
+    "playerCountry": "Sri Lanka",
+    "playerType": "Batsman",
+    "rating": 85,
+    "battingStyle": "Right-Hand Bat",
+    "bowlingStyle": "Right-Arm Medium",
+    "price": 125000,
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211"
+  },
+  {
+    "playerName": "Pat Cummins",
+    "playerCountry": "Australia",
+    "playerType": "Bowler",
+    "rating": 94,
+    "battingStyle": "Right-Hand Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 210000,
+    "image": "https://images.unsplash.com/photo-1518604666860-9ed391f76460"
+  },
+  {
+    "playerName": "Travis Head",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 90,
+    "battingStyle": "Left-Hand Bat",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 170000,
+    "image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d"
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 93,
+    "battingStyle": "Right-Hand Bat",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 185000,
+    "image": "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a"
+  },
+  {
+    "playerName": "Mitchell Santner",
+    "playerCountry": "New Zealand",
+    "playerType": "All-Rounder",
+    "rating": 87,
+    "battingStyle": "Left-Hand Bat",
+    "bowlingStyle": "Left-Arm Orthodox",
+    "price": 145000,
+    "image": "https://images.unsplash.com/photo-1505250469679-203ad9ced0cb"
+  },
+  {
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Wicketkeeper-Batsman",
+    "rating": 92,
+    "battingStyle": "Right-Hand Bat",
+    "bowlingStyle": "None",
+    "price": 195000,
+    "image": "https://images.unsplash.com/photo-1519766304817-4f37bda74a26"
+  },
+  {
+    "playerName": "Jofra Archer",
+    "playerCountry": "England",
+    "playerType": "Bowler",
+    "rating": 89,
+    "battingStyle": "Right-Hand Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 165000,
+    "image": "https://images.unsplash.com/photo-1486286701208-1d58e9338013"
+  },
+  {
+    "playerName": "Nicholas Pooran",
+    "playerCountry": "West Indies",
+    "playerType": "Wicketkeeper-Batsman",
+    "rating": 91,
+    "battingStyle": "Left-Hand Bat",
+    "bowlingStyle": "None",
+    "price": 180000,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b"
+  },
+  {
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerType": "All-Rounder",
+    "rating": 93,
+    "battingStyle": "Right-Hand Bat",
+    "bowlingStyle": "Right-Arm Fast Medium",
+    "price": 200000,
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211"
+  },
+  {
+    "playerName": "Kagiso Rabada",
+    "playerCountry": "South Africa",
+    "playerType": "Bowler",
+    "rating": 92,
+    "battingStyle": "Left-Hand Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 190000,
+    "image": "https://images.unsplash.com/photo-1517466787929-bc90951d0974"
+  }
+]
