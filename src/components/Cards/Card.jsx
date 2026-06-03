@@ -4,12 +4,12 @@ import { IoFlagSharp } from "react-icons/io5";
 
 const Card = ({ player }) => {
   return (
-    <div className="card bg-base-100 w-96 border border-gray-200 shadow-sm p-3">
-      <figure>
+    <div className="card bg-base-100  border border-gray-200 shadow-sm p-3">
+      <figure className="h-64">
         <img
           src={player.image}
           alt={player.playerName}
-          className="w-full h-64 object-cover rounded-xl"
+          className="w-full h-full object-cover rounded-xl"
         />
       </figure>
 

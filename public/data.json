@@ -7,7 +7,8 @@
     "battingStyle": "Left-Hand Bat",
     "bowlingStyle": "Left-Arm Fast Medium",
     "price": 140000,
-    "image": "https://images.unsplash.com/photo-1517466787929-bc90951d0974"
+    "image": "https://i.ibb.co.com/wr3vNYYK/cuttermuster.webp",
+    "id": 1
   },
   {
     "playerName": "Babar Azam",
@@ -17,7 +18,8 @@
     "battingStyle": "Right-Hand Bat",
     "bowlingStyle": "Right-Arm Off Break",
     "price": 200000,
-    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136"
+    "image": "https://i.ibb.co.com/XxXRrGqm/babar.webp",
+    "id": 2
   },
   {
     "playerName": "Shaheen Shah Afridi",
@@ -27,7 +29,8 @@
     "battingStyle": "Left-Hand Bat",
     "bowlingStyle": "Left-Arm Fast",
     "price": 190000,
-    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b"
+    "image": "https://i.ibb.co.com/R4DGr6Zv/shaheen.jpg",
+    "id": 3
   },
   {
     "playerName": "Wanindu Hasaranga",
@@ -37,7 +40,8 @@
     "battingStyle": "Right-Hand Bat",
     "bowlingStyle": "Right-Arm Leg Break",
     "price": 175000,
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55"
+    "image": "https://i.ibb.co.com/v4PBGwy7/hasaranga.webp",
+    "id": 4
   },
   {
     "playerName": "Pathum Nissanka",
@@ -47,7 +51,8 @@
     "battingStyle": "Right-Hand Bat",
     "bowlingStyle": "Right-Arm Medium",
     "price": 125000,
-    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211"
+    "image": "https://i.ibb.co.com/pjb90jN3/nissanka.webp",
+    "id": 5
   },
   {
     "playerName": "Pat Cummins",
@@ -57,7 +62,8 @@
     "battingStyle": "Right-Hand Bat",
     "bowlingStyle": "Right-Arm Fast",
     "price": 210000,
-    "image": "https://images.unsplash.com/photo-1518604666860-9ed391f76460"
+    "image": "https://i.ibb.co.com/xtxZmFrG/cummins.webp",
+    "id": 6
   },
   {
     "playerName": "Travis Head",
@@ -67,7 +73,8 @@
     "battingStyle": "Left-Hand Bat",
     "bowlingStyle": "Right-Arm Off Break",
     "price": 170000,
-    "image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d"
+    "image": "https://i.ibb.co.com/67CLXMPZ/head.webp",
+    "id": 7
   },
   {
     "playerName": "Kane Williamson",
@@ -77,7 +84,8 @@
     "battingStyle": "Right-Hand Bat",
     "bowlingStyle": "Right-Arm Off Break",
     "price": 185000,
-    "image": "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a"
+    "image": "https://i.ibb.co.com/ZRBJTv97/williamson.webp",
+    "id": 8
   },
   {
     "playerName": "Mitchell Santner",
@@ -87,7 +95,8 @@
     "battingStyle": "Left-Hand Bat",
     "bowlingStyle": "Left-Arm Orthodox",
     "price": 145000,
-    "image": "https://images.unsplash.com/photo-1505250469679-203ad9ced0cb"
+    "image": "https://i.ibb.co.com/CKqrbk3F/satner.jpg",
+    "id": 9
   },
   {
     "playerName": "Jos Buttler",
@@ -97,7 +106,8 @@
     "battingStyle": "Right-Hand Bat",
     "bowlingStyle": "None",
     "price": 195000,
-    "image": "https://images.unsplash.com/photo-1519766304817-4f37bda74a26"
+    "image": "https://i.ibb.co.com/FLG7Srgs/buttler.png",
+    "id": 10
   },
   {
     "playerName": "Jofra Archer",
@@ -107,7 +117,8 @@
     "battingStyle": "Right-Hand Bat",
     "bowlingStyle": "Right-Arm Fast",
     "price": 165000,
-    "image": "https://images.unsplash.com/photo-1486286701208-1d58e9338013"
+    "image": "https://i.ibb.co.com/vCfVVJjd/archer.jpg",
+    "id": 11
   },
   {
     "playerName": "Nicholas Pooran",
@@ -117,7 +128,8 @@
     "battingStyle": "Left-Hand Bat",
     "bowlingStyle": "None",
     "price": 180000,
-    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b"
+    "image": "https://i.ibb.co.com/nsFGLFz1/pooran.jpg",
+    "id": 12
   },
   {
     "playerName": "Andre Russell",
@@ -127,7 +139,8 @@
     "battingStyle": "Right-Hand Bat",
     "bowlingStyle": "Right-Arm Fast Medium",
     "price": 200000,
-    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211"
+    "image": "https://i.ibb.co.com/gLyyVpwm/russel.webp",
+    "id": 13
   },
   {
     "playerName": "Kagiso Rabada",
@@ -137,6 +150,7 @@
     "battingStyle": "Left-Hand Bat",
     "bowlingStyle": "Right-Arm Fast",
     "price": 190000,
-    "image": "https://images.unsplash.com/photo-1517466787929-bc90951d0974"
+    "image": "https://i.ibb.co.com/cc3LgnVR/rabada.jpg",
+    "id": 14
   }
 ]
