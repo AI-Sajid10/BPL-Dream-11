@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({ Coin }) => {
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm px-20">
@@ -9,7 +9,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex-none">
                     <button className="flex justify-between items-center gap-2 font-bold text-xl">
-                        0 Coin
+                        {Coin} Coins
                        <img src="/src/assets/Icon.png" alt="Icon" width="20" height="20"></img>
                     </button>
                 </div>

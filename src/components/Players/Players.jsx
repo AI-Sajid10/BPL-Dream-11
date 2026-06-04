@@ -3,7 +3,7 @@ import { use, useState } from 'react';
 import Availableplayers from './AvialablePlayers/Availableplayers';
 import Selectedplayers from './SelectedPlayers/Selectedplayers';
 
-const Players = ({ playersPromise }) => {
+const Players = ({ playersPromise, setCoin, Coin }) => {
     const playersData = use(playersPromise);
     const [selectedType, setselectedType] = useState("available"); 
     return (
@@ -17,7 +17,7 @@ const Players = ({ playersPromise }) => {
                     <button onClick={() => setselectedType("selected")} className={`btn ${selectedType==="selected" ? "bg-[#E7FE29]" : ""} rounded-l-none rounded-r-xl`}>Selected</button>
                 </div>
             </div>
-            {selectedType === "available" ? <Availableplayers playersData={playersData}></Availableplayers> : <Selectedplayers></Selectedplayers>}
+            {selectedType === "available" ? <Availableplayers playersData={playersData} setCoin={setCoin} Coin={Coin}></Availableplayers> : <Selectedplayers></Selectedplayers>}
         </div>
     );
 };
