@@ -1,26 +1,40 @@
 import React from "react";
 import { FaUser } from "react-icons/fa";
 import { IoFlagSharp } from "react-icons/io5";
-import { useState } from "react";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
-const Card = ({ player, setCoin, Coin, setSelectedPlayers, selectedPlayers }) => {
-    const [isSelected, setIsSelected] = useState(false);
+const Card = ({
+    player,
+    setCoin,
+    Coin,
+    setSelectedPlayers,
+    selectedPlayers,
+}) => {
+
+    const isSelected = selectedPlayers.some(
+        (p) => p.id === player.id
+    );
+
     const handlechoosePlayer = () => {
-        if (Coin >= player.price) {
-            let newCoin = Coin - player.price;
-            setCoin(newCoin);
-        } else {
-            
-            toast("You don't have enough coins to select this player.");
+
+        if (isSelected) {
+            toast("Player already selected!");
             return;
         }
-        toast(`${player.playerName} has been selected!`);
-        setIsSelected(true);
+
+        if (Coin < player.price) {
+            toast("You don't have enough coins.");
+            return;
+        }
+
+        setCoin(Coin - player.price);
         setSelectedPlayers([...selectedPlayers, player]);
-    }
+
+        toast(`${player.playerName} has been selected!`);
+    };
+
     return (
-        <div className="card bg-base-100  border border-gray-200 shadow-sm p-3">
+        <div className="card bg-base-100 border border-gray-200 shadow-sm p-3">
             <figure className="h-64">
                 <img
                     src={player.image}
@@ -30,13 +44,11 @@ const Card = ({ player, setCoin, Coin, setSelectedPlayers, selectedPlayers }) =>
             </figure>
 
             <div className="card-body px-0">
-                {/* Player Name */}
                 <h2 className="card-title text-xl">
                     <FaUser className="text-gray-500" />
                     {player.playerName}
                 </h2>
 
-                {/* Country & Type */}
                 <div className="flex justify-between items-center text-gray-500">
                     <div className="flex items-center gap-2">
                         <IoFlagSharp />
@@ -50,35 +62,38 @@ const Card = ({ player, setCoin, Coin, setSelectedPlayers, selectedPlayers }) =>
 
                 <div className="divider my-1"></div>
 
-                {/* Rating */}
                 <h3 className="font-bold">Rating</h3>
 
-                {/* Batting Style */}
                 <div className="flex justify-between">
                     <span className="font-semibold">Batting</span>
-                    <span className="text-gray-500">{player.battingStyle}</span>
+                    <span className="text-gray-500">
+                        {player.battingStyle}
+                    </span>
                 </div>
 
-                {/* Bowling Style */}
                 <div className="flex justify-between">
                     <span className="font-semibold">Bowling</span>
-                    <span className="text-gray-500">{player.bowlingStyle}</span>
+                    <span className="text-gray-500">
+                        {player.bowlingStyle}
+                    </span>
                 </div>
 
-                {/* Rating Value */}
                 <div className="flex justify-between">
                     <span className="font-semibold">Rating</span>
                     <span className="text-gray-500">{player.rating}</span>
                 </div>
 
-                {/* Price & Button */}
                 <div className="flex justify-between items-center mt-3">
                     <p className="font-bold">
                         Price: ${player.price.toLocaleString()}
                     </p>
 
-                    <button onClick={handlechoosePlayer} disabled={isSelected} className="btn btn-sm btn-outline">
-                        {isSelected === true ? "Selected" : "Choose Player"}
+                    <button
+                        onClick={handlechoosePlayer}
+                        disabled={isSelected}
+                        className="btn btn-sm btn-outline"
+                    >
+                        {isSelected ? "Selected" : "Choose Player"}
                     </button>
                 </div>
             </div>
