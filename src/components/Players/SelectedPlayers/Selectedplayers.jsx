@@ -4,14 +4,17 @@ import { FaRegUser } from "react-icons/fa";
 
 const Selectedplayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin }) => {
     console.log(selectedPlayers);
-    const handleDeleteSelectedPlayer = (player)=> {
+    const handleDeleteSelectedPlayer = (player) => {
         const filteredPlayers = selectedPlayers.filter((p) => p.id !== player.id);
         setSelectedPlayers(filteredPlayers);
         setCoin(coin + player.price);
     }
     return (
         <div className="max-w-7xl mx-auto px-16 space-y-5 mt-4">
-            {
+            {selectedPlayers.length === 0 ? <div className="py-20">
+                <h2 className="text-center text-gray-500 font-bold text-xl">No players selected.</h2>
+                <p className="text-center text-gray-500">go to the player selection page to add players.</p>
+            </div> :
                 selectedPlayers.map((player, index) => {
                     return (
                         <div>
