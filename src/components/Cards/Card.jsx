@@ -18,19 +18,19 @@ const Card = ({
     const handlechoosePlayer = () => {
 
         if (isSelected) {
-            toast("Player already selected!");
+            toast.warning("Player already selected!");
             return;
         }
 
         if (Coin < player.price) {
-            toast("You don't have enough coins.");
+            toast.error("You don't have enough coins.");
             return;
         }
 
         setCoin(Coin - player.price);
         setSelectedPlayers([...selectedPlayers, player]);
 
-        toast(`${player.playerName} has been selected!`);
+        toast.success(`${player.playerName} has been selected!`);
     };
 
     return (
