@@ -1,16 +1,85 @@
-# React + Vite
+# 🏏 BPL Dream 11
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fantasy cricket team selection web application built with React. Users can choose their favorite players, manage coins, and create their dream BPL squad.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://bpl-dream-11-by-sajid.netlify.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Display available cricket players in responsive cards
+* Select players for your dream team
+* Coin balance management system
+* Prevent selecting players when coins are insufficient
+* Limit player selection to a maximum number
+* Success and warning toast notifications
+* Responsive design for mobile, tablet, and desktop devices
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Tailwind CSS
+* DaisyUI
+* React Toastify
+* React Icons
+* Vite
+
+## 📦 Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Navigate to the project folder
+
+```bash
+cd BPL-Dream-11
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the development server
+
+```bash
+npm run dev
+```
+
+## 🎯 Project Functionality
+
+### 1. Player Selection
+
+Users can select players from the available player list. Coins are deducted automatically when a player is chosen.
+
+### 2. Coin Management
+
+The application tracks the user's available coins and prevents purchases when the balance is insufficient.
+
+### 3. Team Management
+
+Selected players are displayed in a separate section where users can review their squad and manage selections.
+
+## 📁 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── Navbar/
+│   ├── Banner/
+│   ├── Players/
+│   ├── Card/
+│   └── SelectedPlayers/
+├── App.jsx
+└── main.jsx
+```
+
+## 👨‍💻 Author
+
+Ahmed Ibrahim Sajid
